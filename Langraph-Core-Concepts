@@ -1,0 +1,13 @@
+What is LangGraph?
+
+LangGraph is an orchestration framework that enables you to build stateful, multi-step, and event-driven workflows using large language models (LLMs). It’s ideal for designing both single-agent and multi-agent agentic AI applications.
+
+Think of LangGraph as a flowchart engine for LLMs — you define the steps (nodes), how they’re connected (edges), and the logic that governs the transitions. LangGraph takes care of state management, conditional branching, looping, pausing/resuming, and fault recovery — features essential for building robust, production-grade AI systems.
+
+LLM Workflows
+
+1 LLM workflows are a step-by-step process using which we can build complex LLM applications.
+
+2. Each step in a workflow performs a distinct task — such as prompting, reasoning, tool calling, memory access, or decision-making.
+
+3. Workflows can be linear, parallel, branched, or looped, allowing for complex behaviours like retries, multi-agent communication, or tool-augmented reasoning.
